@@ -22,4 +22,9 @@ public class InsertionSort {
 
         System.out.println("After: " + Arrays.toString(arr) + "\n");
     }
+
+    public static void main(String[] args) {
+        int[] arr = {3, 4, 10, 6, 7, 1, 5, 9, 2, 8};
+        sort(arr);
+    }
 }
